@@ -1,0 +1,23 @@
+.header{
+    padding: 10px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+
+}
+.menu a:focus{
+    border: 1px solid #444;
+}
+.user{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}

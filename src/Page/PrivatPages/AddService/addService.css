@@ -1,0 +1,20 @@
+
+.add-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#FFE7D6, #FFA366);
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px #ccc;
+}
+.int-field p{
+    color: black;
+    
+}
+.int-field input{
+    border: none;
+    border-bottom: 1px solid #282c34;
+    background: none;
+    padding: 2px 5px;
+    width: 300px;
+}

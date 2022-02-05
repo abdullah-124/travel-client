@@ -1,0 +1,10 @@
+
+.banner img{
+    width: 100%;
+    border-radius: 50%;
+}
+.home-title{
+   color: #f8406e;
+   font-weight: bold;
+   font-size: 3rem;
+}

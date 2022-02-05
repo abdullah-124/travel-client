@@ -1,0 +1,8 @@
+.counter p{
+    color: #333;
+}
+.counter .card{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 0px 28px rgb(207, 206, 206);
+}

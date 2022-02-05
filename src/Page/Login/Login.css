@@ -1,0 +1,19 @@
+.login-container{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background: linear-gradient(#FFB0C3, #FF668C);
+    border-radius: 20px;
+    text-align: center;
+}
+.login-container h1,p{
+    color: #fff;
+    font-weight: bold;
+    /* text-align: center; */
+    margin-bottom: 0;
+    /* padding: 20px; */
+}

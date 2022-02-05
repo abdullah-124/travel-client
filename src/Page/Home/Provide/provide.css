@@ -1,0 +1,16 @@
+.provide img{
+    width: 100%;
+    height: 120px;
+}
+.provide p{
+    color: #585858;
+    font-weight: 100;
+    
+}
+.card{
+    padding: 15px
+
+}
+.card-title{
+    color: #6453fd;
+}
