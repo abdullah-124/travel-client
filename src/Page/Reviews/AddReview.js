@@ -29,6 +29,7 @@ const AddReview = () => {
     <div className="container">
       <div className="d-flex justify-content-center ">
         <form className="shadow p-4 m-3" onSubmit={handleSubmit(onSubmit)}>
+            <h4>Add a review</h4>
           <input {...register("text")} placeholder="Type your review" />
 
           <input className="btn_outline" type="submit" />
