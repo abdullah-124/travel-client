@@ -1,5 +1,7 @@
 import React from "react";
 import "./home.css";
+import { Spinner } from 'react-bootstrap'
+import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import banner from "./image/oliur-1JNk998-g70-unsplash.jpg";
 import Services from "../Services/Services";
@@ -7,9 +9,16 @@ import Counter from "./Counter/Counter";
 import Provide from "./Provide/Provide";
 import Review from "../Reviews/Review";
 import Footer from "../Footer/Footer";
+import Sppiner from "./Sppiner"
 
 const Home = () => {
-  return (
+   const [spiner, setSpiner] = useState(true)
+   useEffect( ()=>{
+       setTimeout(()=> setSpiner(false), 700)
+   } ,[])
+
+  return spiner ? <Sppiner></Sppiner> : (
+
     <div>
       <div id="home" className="home container">
         <div className="banner row row-cols-1 align-items-center row-cols-lg-2 mx-auto">
